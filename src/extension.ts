@@ -30,8 +30,6 @@ export function activate(context: vscode.ExtensionContext) {
         privateKeyEncoding: {
           type: "pkcs8",
           format: "pem",
-          cipher: "aes-256-cbc",
-          passphrase: "top secret",
         },
       });
 
